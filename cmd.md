@@ -12,6 +12,11 @@ md aux\
 md con\
 wmic product get name  
 f7
+
+net stop mongoDB
+net start mongoDB
+
+
 ```
 
 
